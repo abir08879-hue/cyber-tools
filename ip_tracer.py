@@ -3,18 +3,16 @@ import os
 import sys
 
 # ================= CONFIGURATION =================
-# ANSI Color Codes for Red and Reset
 RED = '\033[1;31m'
 GREEN = '\033[1;32m'
 CYAN = '\033[1;36m'
 RESET = '\033[0m'
 
-# Tomar Channel er link
 CHANNEL_1 = "https://t.me/wacfabirofficial"
 
 BANNER = f"""{RED}
 ==================================================
-       ⚡ WE ARE CYBER FORCE ⚡
+         ⚡ WE ARE CYBER FORCE ⚡
 ==================================================
 {RESET}"""
 
@@ -65,7 +63,7 @@ def display_results(data):
 def main():
     clear_screen()
     print(BANNER)
-    print(f"          [ IP TRACER - BY KANHA ]\n")
+    print(f"          [ IP TRACER - BY ABIR ]\n")
     
     print("[+] Detecting your own IP...")
     own_ip = get_own_ip()
